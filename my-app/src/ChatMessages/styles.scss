@@ -1,0 +1,10 @@
+@use "/src/styles/vars";
+
+.chatMessages {
+  flex-grow: 2;
+  background-color: vars.$messages-background-color;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  padding: vars.$gutter * 2;
+}
